@@ -28,7 +28,7 @@ DEFINE_string(
 DEFINE_bool(use_datagrams, false, "Use QUIC datagrams to communicate");
 DEFINE_int64(
     active_conn_id_limit,
-    10,
+    20,
     "Maximum number of active connection IDs a peer supports");
 DEFINE_bool(enable_migration, true, "Enable/disable migration");
 DEFINE_bool(use_stream_groups, false, "Enable/disable stream groups");
